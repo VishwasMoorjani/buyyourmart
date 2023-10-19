@@ -1,0 +1,118 @@
+{
+  "name": "Buy Your Mart",
+  "short_name": "Buy Your Mart",
+  "description": "Solutions of All IT Needs",
+  "start_url": "/",
+  
+  "background_color": "#000",
+  "theme_color": "#fa903e",
+  "icons": [
+    {
+      "src": "assets/images/favicon/icon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/favicon/icon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "app_id": "buy-your-mart",
+  "scope": "/",
+  "display_override": [
+    "window-controls-overlay",
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone"
+  ],
+  "display": "fullscreen",
+  
+  "edge_side_panel": {"preferred_width": 500},
+  
+  "handle_links": true,
+  "orientation": "portrait",
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "type": "image/png",
+      "sizes": "720x1280"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "type": "image/png",
+      "sizes": "720x1280"
+    }
+  ],
+  "categories": [  "Shopping", "IT" ],
+  "id": "buy-your-mart",
+  "dir": "auto",
+  "lang": "en",
+  "shortcuts": [
+    {
+      "name": "Shop",
+      "url": "/shop",
+      "description": "Move to Shop"
+    },
+    {
+      "name": "Wishlist",
+      "url": "/user/wishlist",
+      "description": "Move to Wishlist"
+    }
+  ],
+  "prefer_related_applications": false,
+  "widgets": [
+    {
+      "name": "Buy Your Mart",
+      "short_name": "Buy Your Mart",
+      "description": "Widget to control the Buy Your Mart",
+      "tag": "buyyourmart",
+      "ms_ac_template": "widgets/buyyourmart.json",
+      "data": "widgets/buyyourmart-data.json",
+      "screenshots": [
+        {
+          "src": "./screenshot-widget.png",
+          "sizes": "600x400",
+          "label": "The PWAmp buyyourmart widget"
+        }
+      ],
+      "icons": [
+        {
+          "src": "assets/images/favicon/icon-192-192.png",
+          "sizes": "48x48"
+        },
+        {
+          "src": "assets/images/favicon/icon-192-192.png",
+          "sizes": "96x96"
+        },
+        {
+          "src": "assets/images/favicon/icon-192-192.png",
+          "sizes": "128x128"
+        },
+        {
+          "src": "assets/images/favicon/icon-512-512.png",
+          "sizes": "256x256"
+        },
+        {
+          "src": "assets/images/favicon/icon-512-512.png",
+          "sizes": "512x512"
+        }
+      ],
+      "backgrounds": [
+        {
+          "src": "assets/images/favicon/icon-512-512.png",
+          "sizes": "600x400"
+        }
+      ]
+    }
+  ]
+}
